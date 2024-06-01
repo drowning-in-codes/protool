@@ -13,8 +13,13 @@ hero:
     - theme: brand
       text: 'Web框架'
       link: '/node_web' 
+    - theme: brand
+      text: '计算机图形学(WIP)'
+      link: 'cg/part1'
+
 features:
-  - title: Learn 
+  - icon: 🛠
+    title: Learn 
     details: No features
 ---
 

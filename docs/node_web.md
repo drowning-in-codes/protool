@@ -27,7 +27,7 @@ app.listen(4000)
 npm i express
 ```
 
-久经考验的node后端小框架,本身功能挺少的,感觉还不如Flask.没有特重载,需要使用nodemon.
+久经考验的node后端小框架,本身功能挺少的,感觉还不如Flask.没有热重载,需要使用nodemon.
 
 ```js
 const express = require('express')

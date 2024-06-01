@@ -279,7 +279,7 @@ path("<int:question_id>/", views.detail, name="detail")
 
 还可以给url名称添加命名空间.为了避免多个应用views冲突.在urls.py中添加app.name
 
-```pyhton
+```python
 app_name = "polls"
 ```
 
@@ -668,7 +668,7 @@ Sanic跟Flask一样提供了蓝图.
 >
 >蓝图对大型应用程序尤其有用，因为在大型应用程序中，应用程序逻辑可被分解为多个组或责任区。
 
-```pyhton
+```python
 # ./my_blueprint.py
 from sanic.response import json
 from sanic import Blueprint

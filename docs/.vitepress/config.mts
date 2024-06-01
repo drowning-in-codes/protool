@@ -3,17 +3,36 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "protools",
   description: "tools which I learn and use",
+  head: [['link', { rel: 'icon',type:'image/png',href: '/favicon.png' }],
+  ['link', { rel: 'icon',href: '/favicon.ico' }],
+  ],
+ 
   themeConfig: {
+   logo: '/logo.jpg',
     // https://vitepress.dev/reference/default-theme-config
     search: {
       provider: "local",
     },
+	  lastUpdated: {
+      text: 'Updated at',
+      formatOptions: {
+        dateStyle: 'full',
+        timeStyle: 'medium'
+      }
+	},
     sidebar: [
       {
         text: "Web框架",
         items: [
           { text: "Node", link: "/node_web" },
           { text: "Python", link: "/python_web" },
+          { text: "Go", link: "/go_web" },
+        ],
+      },
+	    {
+        text: "计算机图形学",
+        items: [
+          { text: "3D Computer Graphics Primer: Ray-Tracing as an Example", link: "cg/part1" },
         ],
       },
     ],
@@ -23,6 +42,14 @@ export default defineConfig({
         items: [
           { text: "Node", link: "/node_web" },
           { text: "Python", link: "/python_web" },
+          { text: "Go", link: "/go_web" },
+		  
+        ],
+      },
+	  {
+        text: "计算机图形学",
+        items: [
+          { text: "介绍", link: "cg/part1" },
         ],
       },
     ],
