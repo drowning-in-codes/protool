@@ -32,7 +32,10 @@ export default defineConfig({
 	    {
         text: "计算机图形学",
         items: [
+          { text: "学习路线", link: "cg/overview" },
           { text: "3D Computer Graphics Primer: Ray-Tracing as an Example", link: "cg/part1" },
+		  { text: "Overview of the Ray-Tracing Rendering Technique", link: "cg/Overview of the Ray-Tracing Rendering Technique" },
+		 
         ],
       },
     ],
@@ -49,6 +52,7 @@ export default defineConfig({
 	  {
         text: "计算机图形学",
         items: [
+          { text: "学习路线", link: "cg/overview" },
           { text: "介绍", link: "cg/part1" },
         ],
       },
