@@ -7,7 +7,7 @@ hero:
   text: "tools which I learn and use"
   tagline: Help me and others to learn and use.
   image:
-    src: /logo.jpg
+    src: /favicon.jpg
     alt: protools
   actions:
     - theme: brand
