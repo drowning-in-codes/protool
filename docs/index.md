@@ -16,6 +16,9 @@ hero:
     - theme: brand
       text: '计算机图形学(WIP)'
       link: 'cg/part1'
+    - theme: brand
+      text: '个人开发setup(WIP)'
+      link: 'setup/setup'
 
 features:
   - icon: 🛠

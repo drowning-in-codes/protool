@@ -48,7 +48,7 @@ CS 148
 
 [(11 封私信) 零基础如何学习计算机图形学？ - 知乎 (zhihu.com)](https://www.zhihu.com/question/41468803)
 
-
+[刘利刚《计算机图形学》2020 (ustc.edu.cn)](http://staff.ustc.edu.cn/~lgliu/Courses/ComputerGraphics_2020_spring-summer/default.htm)
 
 
 
